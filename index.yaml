@@ -3,9 +3,9 @@ entries:
   jupyterhub:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-12-03T19:21:44.560534981+01:00"
+    created: "2020-12-04T14:16:36.858782498+01:00"
     description: A Helm chart for the deployment of multi-user JupyterHUB
-    digest: de9650ca29436529837f8a7aca1b3fb3c06eb6e0dc380b38775caf470e4b3610
+    digest: 7c7bd6ef4ee03e624899d7be546f00ffd324dc23b9e2b8e5b30f41256a9a6f9b
     home: https://github.com/marcoverl/helm-charts/sources/jupyterhub/
     icon: https://xrootd.slac.stanford.edu/images/jupyterhub.png
     maintainers:
@@ -16,4 +16,4 @@ entries:
     urls:
     - https://marcoverl.github.io/helm-charts/jupyterhub-1.0.0.tgz
     version: 1.0.0
-generated: "2020-12-03T19:21:44.560013152+01:00"
+generated: "2020-12-04T14:16:36.852221186+01:00"
