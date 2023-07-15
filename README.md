@@ -1,2 +1,2 @@
 # helm-charts
-helm chart to install and configure jupyterhub 1.2.0
+helm charts to install and configure services in INFN-Cloud
