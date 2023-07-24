@@ -13,7 +13,7 @@ the latest versions of the packages.  You can then run `helm search repo
 
 To install the jupyterhub chart:
 
-    helm install my-jupyterhub marcoverl/jupyterhub
+    helm install my-jupyterhub dodas/jupyterhub
 
 To uninstall the chart:
 
