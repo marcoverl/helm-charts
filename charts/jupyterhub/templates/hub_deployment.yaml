@@ -35,8 +35,6 @@ spec:
               value: "{{ .Values.s3.endpoint }}"
             - name: S3_BUCKET
               value: "{{ .Values.s3.bucket }}"
-            - name: NB_UID
-              value: "{{ .Values.hub.userid }}"  
           image: "{{ .Values.hub.image }}"
           ports:
           - containerPort: 8888
