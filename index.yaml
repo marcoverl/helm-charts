@@ -3,6 +3,21 @@ entries:
   jupyterhub:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2024-10-25T16:06:50.404583991Z"
+    description: A Helm chart for the deployment of multi-user JupyterHUB
+    digest: 49e5497e31cf4e7e1cc76303b180997415ed7eb4425a4867df2a6448938ba687
+    home: https://github.com/marcoverl/helm-charts/charts/jupyterhub/
+    icon: https://xrootd.slac.stanford.edu/images/jupyterhub.png
+    maintainers:
+    - email: verlato@infn.it
+      name: marcoverl
+    name: jupyterhub
+    type: application
+    urls:
+    - https://github.com/marcoverl/helm-charts/releases/download/jupyterhub-7.3.1/jupyterhub-7.3.1.tgz
+    version: 7.3.1
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2023-07-24T18:33:49.865114526Z"
     description: A Helm chart for the deployment of multi-user JupyterHUB
     digest: 913f71f562f9a8abb9d41934657c036eb42e3d928fdbe66eb54a2e853f262826
@@ -31,4 +46,4 @@ entries:
     urls:
     - https://github.com/marcoverl/helm-charts/releases/download/jupyterhub-1.0.0/jupyterhub-1.0.0.tgz
     version: 1.0.0
-generated: "2023-07-24T18:33:49.865122426Z"
+generated: "2024-10-25T16:06:50.404602615Z"
