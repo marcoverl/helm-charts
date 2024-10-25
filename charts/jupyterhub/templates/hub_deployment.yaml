@@ -7,6 +7,7 @@ metadata:
 spec:
   replicas: 1
   strategy:
+    # strategy
     type: RollingUpdate
   selector:
     matchLabels:
@@ -35,6 +36,10 @@ spec:
               value: "{{ .Values.s3.endpoint }}"
             - name: S3_BUCKET
               value: "{{ .Values.s3.bucket }}"
+            - name: SPAWNED_IMAGE
+              value: "{{ .Values.hub.spawned_image }}"
+            - name: CVMFS_SNAPSHOTTER
+              value: "{{ .Values.hub.cvmfs_snapshotter }}"
           image: "{{ .Values.hub.image }}"
           ports:
           - containerPort: 8888
